@@ -1,2 +1,64 @@
-# Movie-Recommender-System-Using-LLM
-Built a movie recommender system using LLMs and vector stores in Python.
+# Movie-Recommender-System-Using-LLM 🎥 
+
+This project leverages Large Language Models (LLMs) and vector stores to build a sophisticated movie recommender system. It provides personalized movie recommendations based on user preferences and historical data. 🌟
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Architecture
+
+```plaintext
+Movies Dataset
+  ├── 🎬 Title
+  ├── 📝 Description
+  ├── 📅 Release Date
+  ├── 🎭 Cast
+  ├── 🎞️ Genre
+  ├── 🎬 Director
+  └── 📦 Additional Attributes
+
+       ↓
+
+Convert Data into Vectors (Embeddings)
+  ├── 📜 Create Textual Representations
+  └── 🔢 Generate Embeddings 
+
+       ↓
+
+LLama -> FAISS (Vector Storage)
+  └── 💾 Store Embeddings for Efficient Similarity Search
+
+```
+
+
+## Key Points 📌
+
+1. **Load Data from Kaggle**
+    - [Kaggle Movie Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+2. **Create Textual Representations** as per requirements.
+3. **Generate Embeddings** using LLMs.
+4. **Write and Load Index** with FAISS.
+5. **Perform Similarity Search** for features like favorite movies.
+6. **Create Prompt for Favorite Movie** embedding.
+7. **Use Embeddings for Similarity Search**.
+
+## Features
+
+- Personalized Recommendations
+- Efficient Vector Storage with FAISS
+- Advanced NLP Techniques
+
+## Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/movierecommender.git
+    
+    ```
+
+## Acknowledgements
+
+- [Ollama](https://www.ollama.com/)
+- [Kaggle](https://www.kaggle.com/)
+
+
+<a href="https://www.linkedin.com/in/mansi-more-0943/"> ![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>
