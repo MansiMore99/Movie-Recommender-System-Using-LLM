@@ -41,24 +41,12 @@ LLama -> FAISS (Vector Storage)
 6. **Create Prompt for Favorite Movie** embedding.
 7. **Use Embeddings for Similarity Search**.
 
-## Features
-
-- Personalized Recommendations
-- Efficient Vector Storage with FAISS
-- Advanced NLP Techniques
 
 ## Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/movierecommender.git
-    
-    ```
-
-## Acknowledgements
-
 - [Ollama](https://www.ollama.com/)
 - [Kaggle](https://www.kaggle.com/)
+
 
 
 <a href="https://www.linkedin.com/in/mansi-more-0943/"> ![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) </a>
