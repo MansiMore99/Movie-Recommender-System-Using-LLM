@@ -42,13 +42,6 @@ LLama -> FAISS (Vector Storage)
 7. **Use Embeddings for Similarity Search**.
 
 
-## Installation
-
-- [Ollama](https://www.ollama.com/)
-- [Kaggle](https://www.kaggle.com/)
-
-
-
 ## 💬 Feedback & Support
 
 I'm always looking to improve! Share your thoughts and suggestions:
